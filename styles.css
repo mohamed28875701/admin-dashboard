@@ -79,3 +79,44 @@ input[type="text"]{
     border-radius: 12px;
     border:2px solid #EB90BD;   
 }
+.menu{
+    grid-column: 2/4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 30px;
+    background: linear-gradient(90deg,#0C4A6E,#EB90BD);
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.username > p{
+    margin:0%;
+    color: #D4F4FF;
+    font-family: "Oswald";
+    font-size: 14px;
+}
+#username{
+    font-size: 20px;
+}
+.image-placeholder.menuimg{
+    height: 60px;
+    width: 60px;
+    border-color: #A5D2FD;
+}
+.right > button{
+    background-color: #A5D2FD;
+    width: 100px;
+    height: 30px;
+    border-radius:12px;
+    color: #0C4A6E;
+    border: 2px solid #0C4A6E;
+}
+.right > button:hover{
+    background-color: #0C4A6E;
+    color: #A5D2FD;
+    
+}
