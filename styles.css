@@ -3,7 +3,7 @@ body{
 }
 .container{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
 }
 .dashboard{
     grid-column: 1/2;
@@ -11,4 +11,32 @@ body{
     background-color: #0C4A6E;
     display: flex;
     flex-direction: column;
+    gap:50px;
+    padding: 20px;
+}
+.personal-btns{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    
+}
+.settings{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+.dashboard button{
+    background-color: inherit;
+    color:#D4F4FF;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:12px;
+    font-size: 18px;
+    border: none;
+    font-family: "Oswald";
+    
+}
+#main{
+    font-size: 30px;
 }
