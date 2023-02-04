@@ -50,14 +50,14 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background:linear-gradient(90deg,#0C4A6E,#EB90BD);
+    background-color:aliceblue;
 }
 #search-left{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap:12px;
-    flex-basis: 700px;
+    
 }
 #search-right{
     display: flex;
@@ -77,15 +77,16 @@ body{
 #search-right > p{
     margin: 0%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: aliceblue;
-}
+    color: #0C4A6E;
+}   
 input[type="text"]{
     appearance: none;
-    width: 400px;
+    width: 800px;
     background-color: inherit;
-    color: #D4F4FF;
+    color: #0C4A6E;
     border-radius: 12px;
-    border:2px solid #EB90BD;   
+    border:2px solid #0C4A6E; 
+    flex-shrink:1 ; 
 }
 .menu{
     grid-column: 2/4;
@@ -94,7 +95,7 @@ input[type="text"]{
     justify-content: space-between;
     align-items: center;
     padding: 8px 30px;
-    background: linear-gradient(90deg,#0C4A6E,#EB90BD);
+    background-color:aliceblue ;
 }
 .left{
     display: flex;
@@ -104,7 +105,7 @@ input[type="text"]{
 }
 .username > p{
     margin:0%;
-    color: #D4F4FF;
+    color: #0C4A6E;
     font-family: "Oswald";
     font-size: 14px;
 }
@@ -114,7 +115,7 @@ input[type="text"]{
 .image-placeholder.menuimg{
     height: 60px;
     width: 60px;
-    border-color: #A5D2FD;
+    border-color: #0C4A6E;
 }
 .right > button{
     background-color: #A5D2FD;
@@ -179,6 +180,45 @@ p{
     padding-bottom: 10px;
     padding-right:10px ;
 }
+.announcements{
+    background-color: #D4F4FF;
+}
+.announcements > p{
+    color: #0C4A6E;
+    font-size: 20px;
+    padding-top: 12px;
+    padding-left: 12px;
+    margin-bottom:12px ;
+}
+.announcement{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;    
+    gap:30px;
+    margin-right: 12px;
+    background-color: aliceblue;
+    border-radius: 12px;
+    height: 80%;
+}
+#announce{
+    
+    
+}
+#an-header{
+    color: #0C4A6E;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#an-text{
+    color:rgb(12, 74, 110,.7);
+    font-size: 14px;
+}
+#line{
+    flex-basis: 1px;;
+    height: inherit;
+    background-color: #0C4A6E;
+}
 .trending{
     grid-column: 3/4;
+    background-color: #D4F4FF;
 }
