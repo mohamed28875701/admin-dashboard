@@ -40,3 +40,42 @@ body{
 #main{
     font-size: 30px;
 }
+.search-bar{
+    grid-column: 2/span 2;
+    display: flex;
+    padding:12px 22px;
+    display: flex;
+    justify-content: space-between;
+    background:linear-gradient(90deg,#0C4A6E,#EB90BD);
+}
+#search-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:12px;
+}
+#search-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:12px;
+}
+.image-placeholder{
+    width:40px;
+    height: 40px;
+    border: 1px solid #0C4A6E;
+    border-radius: 50%;
+}
+#search-right > p{
+    margin: 0%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+input[type="text"]{
+    appearance: none;
+    width: 400px;
+    background-color: inherit;
+    color: #D4F4FF;
+    border-radius: 12px;
+    border:2px solid #EB90BD;   
+}
